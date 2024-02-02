@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 524px) {
+  .adviceCard{
+    width: 355px !important;
+    padding: 40px 30px !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+body{
+  background-color: hsl(218, 23%, 16%) !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+.adviceCard{
+  background-color: hsl(217, 19%, 24%);
+  margin-top: 170px ;
+  padding: 40px 40px 40px 40px ;
+  flex: 0 0 auto;
+  width: 524px ;
+  border-radius: 16px;
+}
+.advice{
+  color: hsl(193, 38%, 86%);
+  /* font-weight: 800; */
+  font-weight: bold;
+  font-size: 28px;
+}
+.id{
+  color: hsl(150, 100%, 66%);
+  font-size: 14px;
+  font-family: monospace;
+}
+.dice{
+  background-color: hsl(150, 100%, 66%);
+  height: 64px;
+  width: 64px !important;
+  border-radius: 9999px;
+  cursor: pointer;
+ 
+}
+/* main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+.diceIcon{
+  margin-top: 21px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dice:hover{
+  box-shadow: 0 0 20px 12px rgba(82, 255, 169, 0.25);
+  transition: all 200ms ease-out;
+  /* transition-timing-function: cubic-bezier(.4,0,.2,1); */
 }
