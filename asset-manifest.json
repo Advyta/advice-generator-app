@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/faq-accordion/static/css/main.fd21e143.css",
+    "main.js": "/faq-accordion/static/js/main.b2c3937e.js",
+    "static/js/592.cb9b4866.chunk.js": "/faq-accordion/static/js/592.cb9b4866.chunk.js",
+    "index.html": "/faq-accordion/index.html",
+    "static/media/pattern-divider-desktop.svg": "/faq-accordion/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "static/media/pattern-divider-mobile.svg": "/faq-accordion/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
+    "main.fd21e143.css.map": "/faq-accordion/static/css/main.fd21e143.css.map",
+    "main.b2c3937e.js.map": "/faq-accordion/static/js/main.b2c3937e.js.map",
+    "592.cb9b4866.chunk.js.map": "/faq-accordion/static/js/592.cb9b4866.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd21e143.css",
+    "static/js/main.b2c3937e.js"
+  ]
+}
