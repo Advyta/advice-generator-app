@@ -2,7 +2,7 @@
   "name": "advice-generator-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Advyta.github.io/faq-accordion",
+  "homepage": "https://Advyta.github.io/advice-generator-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
